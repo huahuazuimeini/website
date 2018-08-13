@@ -91,7 +91,6 @@
                 <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
 
                     <div class="row">
-
                         <div class="col-xs-12">
                             <!--<i class="fa fa-4x fa-camera tm-icon"></i>-->
                             <h2 class="tm-site-name">你好啊</h2>
@@ -123,14 +122,22 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="tm-2-col-container">
-                                <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
-                                    <h2 class="tm-text-title">基本信息</h2>
-                                    <section class="profile_container cover step" id="profile" data-x="0" data-y="0">
-                                        <h1 class="cover"><span class="h1-text fg-bgc">About Me</span><span class="h1-corner fg-bdc"></span></h1>
+                                <!--<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">-->
+                                    <section class="step">
+                                        <h1 class="cover"><span class="h1-text fg-bgc">
+                                            <span style="margin-left: -65px">About Me</span>
+                                            </span><span class="h1-corner fg-bdc"></span>
+                                        </h1>
                                         <figure class="me left">
-                                            <div id="myqr">Scan My QR Code</div>
                                             <div id="myimg"></div>
                                         </figure>
+                                        <section class="aboutme">
+                                            <hgroup>
+                                                <div class="f30">Narsis Askari</div>
+                                                <div class="f20">WEB DEVELOPER</div>
+                                            </hgroup>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        </section>
                                         <section class="personal-info right">
                                             <!-- Personal info section -->
                                             <ul>
@@ -166,15 +173,8 @@
                                                 </li>
                                             </ul>
                                         </section>
-                                        <section class="aboutme">
-                                            <hgroup>
-                                                <h2 class="f30">Narsis Askari</h2>
-                                                <h2 class="f20">WEB DEVELOPER</h2>
-                                            </hgroup>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                        </section>
                                     </section>
-                                </div>
+                                <!--</div>-->
                             </div>
                         </div>
                     </div>
@@ -401,17 +401,6 @@
         // https://ihatetomatoes.net/create-custom-preloading-screen/
         $('body').addClass('loaded');
 
-    });
-
-    $('.spe1').hover(function(){
-        $('.contact-img1').css('display','block');
-    },function(){
-        $('.contact-img1').css('display','none');
-    });
-    $('.spe2').hover(function(){
-        $('.contact-img2').css('display','block');
-    },function(){
-        $('.contact-img2').css('display','none');
     });
 </script>
 

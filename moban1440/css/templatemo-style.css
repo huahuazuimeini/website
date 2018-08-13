@@ -204,6 +204,7 @@ button:focus {
 .cd-hero-slider .tm-text {
     font-size: 1em;
     line-height: 1.8;
+    color: #0b0b0b;
 }
 
 .tm-2-col-container {
@@ -606,15 +607,24 @@ textarea {
     }
 }
 
+.spe2:hover .contact-img2,.spe1:hover .contact-img1{
+width: 200px;
+    transform: scale(1);
+
+
+}
 .contact-img{
-    display: none;
+    /*display: none;*/
     width: 200px;
     height: 200px;
     position: absolute;
     left:0;
     bottom: 100%;
     z-index: 99;
+    transform: scale(0);
+    -webkit-transition: transform 1s;
 }
 .contact-img2{
     margin-bottom: 74px;
+    margin-left: -109.5px;
 }

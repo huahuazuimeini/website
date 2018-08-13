@@ -1,86 +1,57 @@
-section.profile_container.active figure.me #myqr,
-section.profile_container.active figure.me #myimg {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: block;
+section.step {
+    width: 715px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    border: 1px solid #c4c4c4;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 35px auto 0 auto;
 }
-/*Profile pic */
-section.profile_container figure.me {
-    height: 250px;
-    width: 200px;
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.fg-bgc {
+    background-color: #f7cc52;
+}
+
+h1.cover {
+    font-size: 2rem;
+    overflow: hidden;
+
+}
+h1 span.h1-text {
+    min-width: 220px;
+    float: left;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px 0 0 20px;
+}
+h1 span.h1-corner {
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #f7cc52;
+    border-bottom: 28px solid #f7cc52;
+    border-right: 28px solid transparent;
+}
+
+figure.me {
+    height: 174px;
+    width: 125px;
     margin-left: 16px;
+    margin-top: 20px;
     padding: 5px;
     outline: 1px solid #c7c7c7;
-    position: relative;
-    /* Profile pic hover flip animate */
-}
-section.profile_container figure.me #myqr,
-section.profile_container figure.me #myimg {
-    -webkit-transition: -webkit-transform 1s;
-    -moz-transition: -moz-transform 1s;
-    -o-transition: -o-transform 1s;
-    -ms-transition: -ms-transform 1s;
-    transition: transform 1s;
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background-repeat: no-repeat;
-}
-section.profile_container figure.me #myimg {
     background-image: url("../img/ps.jpg");
     background-size: contain;
 }
-section.profile_container figure.me #myqr {
-    -webkit-transform: rotatey(-180deg);
-    -moz-transform: rotatey(-180deg);
-    -o-transform: rotatey(-180deg);
-    -ms-transform: rotatey(-180deg);
-    transform: rotatey(-180deg);
-    background-image: url("../img/weixin.png");
-    background-position: center bottom;
-    font-weight: bold;
-    text-align: center;
-    font-size: 22px;
-    line-height: 48px;
-    display: none;
-}
-/* Profile pic hover flip animate */
-section.profile_container figure.me:hover #myimg,
-section.profile_container figure.me.hover #myimg {
-    -webkit-transform: rotatey(180deg);
-    -moz-transform: rotatey(180deg);
-    -o-transform: rotatey(180deg);
-    -ms-transform: rotatey(180deg);
-    transform: rotatey(180deg);
-}
-section.profile_container figure.me:hover #myqr,
-section.profile_container figure.me.hover #myqr {
-    -webkit-transform: rotatey(0deg);
-    -moz-transform: rotatey(0deg);
-    -o-transform: rotatey(0deg);
-    -ms-transform: rotatey(0deg);
-    transform: rotatey(0deg);
-}
-section.profile_container figure.me div {
-    outline: 1px solid #c7c7c7;
-}
-section.profile_container section.personal-info {
-    margin-top: 5px;
-    width: 310px;
-    min-height: 230px;
-    background-image: url("images/personal-info-sep.png");
-    background-repeat: no-repeat;
-    background-position: 0 44px;
-    padding: 20px 0 0 20px;
-}
-section.profile_container section.personal-info li {
-    font-size: 15px;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-section.profile_container section.personal-info li .label {
+
+section.persnal-info li .label {
     color: #fff;
     float: left;
     padding: 4px 7px;
@@ -88,7 +59,8 @@ section.profile_container section.personal-info li .label {
     -webkit-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px;
 }
-section.profile_container section.personal-info li .text {
+
+section.personal-info li .text {
     float: right;
     width: 170px;
     color: #757070;
@@ -96,20 +68,23 @@ section.profile_container section.personal-info li .text {
     font-weight: bold;
     padding-top: 3px;
 }
-section.profile_container section.personal-info li .text a {
-    color: #757070;
-    text-decoration: none;
-}
+
 section.profile_container section.aboutme {
     margin: 0 340px 0 240px;
     min-height: 270px;
 }
-section.profile_container section.aboutme hgroup {
+section.aboutme hgroup {
     line-height: 1.5;
 }
-section.profile_container section.aboutme hgroup h2 {
+section.aboutme hgroup h2 {
     color: #5e5e5e;
 }
-section.profile_container section.aboutme p {
+section.aboutme p {
     line-height: 1.4;
+}
+.f30 {
+    font-size: 30px;
+}
+.f20 {
+    font-size: 20px;
 }
