@@ -874,6 +874,7 @@
   section.profile_container section.aboutme {
     margin: 0 340px 0 240px;
     min-height: 270px;
+    text-align: left;
   }
   section.profile_container section.aboutme hgroup {
     line-height: 1.5;

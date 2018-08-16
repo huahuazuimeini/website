@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/heart.css">
     <!-- Templatemo style -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,7 +87,7 @@
     </div>
 
     <ul class="cd-hero-slider">  <!-- autoplay -->
-        <li class="selected">
+        <li class="cd-hero-slider-li selected">
             <div class="cd-full-width">
                 <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
 
@@ -96,7 +97,8 @@
                             <h2 class="tm-site-name">你好啊</h2>
                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
                                 <p class="tm-text">&nbsp&nbsp&nbsp&nbsp欢迎来到花花世界</p>
-                                <p class="tm-text">&nbsp&nbsp&nbsp&nbsp此处大三女程序员一枚,前端方向。
+                                <p class="tm-text">
+                                    &nbsp&nbsp&nbsp&nbsp此处大三女程序员一枚,前端方向。
                                     我是一个积极乐观的人,遇到困难绝不轻易放弃。
                                     同时 ,我也是一个固执的人,认定的事不撞南墙不回头,不怕失败可能也是一种优点(手动微笑)。
                                     我的座右铭就是"人生经历,老来谈资",同道中人一定知道出自哪里^_^。<br>
@@ -105,6 +107,17 @@
                                     爱好广泛，图书、电影、运动，尤好手工，是的，我是一个心灵手巧的女纸。
                                     平时还喜欢逛各大论坛网站博客社区，要知道，高手在民间。
                                     想知道我更多的优点么（对，我是没有缺点的）？且看下一页
+                                <div class="heart">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                                 </p>
                             </div>
                         </div>
@@ -113,68 +126,80 @@
 
                 </div>
             </div> <!-- .cd-full-width -->
-        </li>
+        </li><!--1-->
 
-        <li>
+        <li class="cd-hero-slider-li">
             <div class="cd-full-width">
-
                 <div class="container-fluid js-tm-page-content" data-page-no="2">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="tm-2-col-container">
-                                <!--<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">-->
-                                    <section class="step">
-                                        <h1 class="cover"><span class="h1-text fg-bgc">
-                                            <span style="margin-left: -65px">About Me</span>
-                                            </span><span class="h1-corner fg-bdc"></span>
-                                        </h1>
-                                        <figure class="me left">
-                                            <div id="myimg"></div>
-                                        </figure>
-                                        <section class="aboutme">
-                                            <hgroup>
-                                                <div class="f30">Narsis Askari</div>
-                                                <div class="f20">WEB DEVELOPER</div>
-                                            </hgroup>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                        </section>
-                                        <section class="personal-info right">
-                                            <!-- Personal info section -->
-                                            <ul>
-                                                <li>
-                                                    <div class="label fg-bgc">Name</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text">Narsis Askari</div>
-                                                </li>
-                                                <li>
-                                                    <div class="label fg-bgc">Birthday</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text">October 30, 1980</div>
-                                                </li>
-                                                <li>
-                                                    <div class="label fg-bgc">Phone</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text">412 123 4567</div>
-                                                </li>
-                                                <li>
-                                                    <div class="label fg-bgc">Email</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text"><a href="#contact">info@1devs.com</a></div>
-                                                </li>
-                                                <li>
-                                                    <div class="label fg-bgc">Website</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text"><a href="http://1devs.com" target="_blank">www.1Devs.com</a></div>
-                                                </li>
-                                                <li>
-                                                    <div class="label fg-bgc">Address</div>
-                                                    <div class="corner fg-bdc"></div>
-                                                    <div class="text">4244 Finwood Road, Piscataway, NJ 08854</div>
-                                                </li>
-                                            </ul>
-                                        </section>
+                                <section class="profile_container cover step" id="profile" data-x="0" data-y="0">
+                                    <h1 class="cover"><span class="h1-text fg-bgc">About Me</span><span
+                                            class="h1-corner fg-bdc"></span></h1>
+                                    <figure class="me left">
+                                        <div id="myqr">Scan My WX Code</div>
+                                        <div id="myimg"></div>
+                                    </figure>
+                                    <section class="personal-info right">
+                                        <!-- Personal info section -->
+                                        <ul>
+                                            <li>
+                                                <div class="label fg-bgc">Name</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text">Narsis Askari</div>
+                                            </li>
+                                            <li>
+                                                <div class="label fg-bgc">Birthday</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text">October 30, 1980</div>
+                                            </li>
+                                            <li>
+                                                <div class="label fg-bgc">Phone</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text">412 123 4567</div>
+                                            </li>
+                                            <li>
+                                                <div class="label fg-bgc">Email</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text"><a href="#contact">info@1devs.com</a></div>
+                                            </li>
+                                            <li>
+                                                <div class="label fg-bgc">Website</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text"><a href="http://1devs.com" target="_blank">www.1Devs.com</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="label fg-bgc">Address</div>
+                                                <div class="corner fg-bdc"></div>
+                                                <div class="text">4244 Finwood Road, Piscataway, NJ 08854</div>
+                                            </li>
+                                        </ul>
                                     </section>
-                                <!--</div>-->
+                                    <section class="aboutme">
+                                        <div class="f30">张欢欢</div>
+                                        <div class="f20">WEB DEVELOPER</div>
+                                        <div>大二开始，接触前端已经一年有余，喜欢‘所见即所得’的成就感。
+                                            平时主要跟着网上教程学习，喜欢跟着视频学习一些小例子，像慕课网、极客学院等等，
+                                            会看一些API文档、手册、博客什么的，阮一峰、张鑫旭这种大神的博客是一定要看的，
+                                            也喜欢逛各大论坛网站，看看别人总结的工作经验、技术经验。
+                                            现在在看的工具书是JavaScript高级程序设计和CSS的世界，收获颇丰。
+                                            正在努力的成为优秀的前端人...
+                                        </div>
+                                    </section>
+                                    <a class="dwn-vcard fg-bgc" href="#">Download vCard</a>
+                                    <!-- Social Icons -->
+                                    <ul class="social cover">
+                                        <li><a class="facebook" title="Facebook" href="#"></a></li>
+                                        <li><a class="twitter" title="Twitter" href="#"></a></li>
+                                        <li><a class="cs" title="CS" href="#"></a></li>
+                                        <li><a class="tumblr" title="Tumblr" href="#"></a></li>
+                                        <li><a class="google" title="Google" href="#"></a></li>
+                                        <li><a class="linkedin" title="Linkedin" href="#"></a></li>
+                                        <li><a class="rss" title="RSS" href="#"></a></li>
+                                    </ul>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -185,7 +210,7 @@
         </li>
 
         <!-- Page 3 -->
-        <li>
+        <li class="cd-hero-slider-li">
 
             <div class="cd-full-width">
 
@@ -230,7 +255,7 @@
 
         </li>
 
-        <li>  <!-- class="cd-bg-video" -->
+        <li class="cd-hero-slider-li">  <!-- class="cd-bg-video" -->
             <div class="js-tm-page-content" data-page-no="4">
 
                 <div class="cd-bg-video-wrapper" data-video="video/sunset-loop">
@@ -241,7 +266,7 @@
 
         </li>
 
-        <li>
+        <li class="cd-hero-slider-li">
             <div class="cd-full-width">
 
                 <div class="container-fluid js-tm-page-content" data-page-no="5">
@@ -325,7 +350,7 @@
                 <i class="fa fa-linkedin"></i>
             </a>
         </div>
-    </footer>
+    </footer><!--社交网站-->
 
 </div> <!-- .cd-hero -->
 

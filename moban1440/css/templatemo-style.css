@@ -12,6 +12,9 @@ ul {
     margin: 0;
 }
 
+li {
+    list-style: none;
+}
 p:last-child {
     margin-bottom: 0;
 }
@@ -175,10 +178,6 @@ button:focus {
     height: 100vh;
 }
 
-.cd-hero-slider li {
-    list-style: none;
-}
-
 .cd-hero-slider li:last-child {
     background-size: auto;
 }
@@ -199,6 +198,7 @@ button:focus {
 
 .tm-textbox-1-col {
     max-width: 600px;
+    position: relative;
 }
 
 .cd-hero-slider .tm-text {
@@ -589,11 +589,6 @@ textarea {
 }
 
 @media only screen and (min-width: 1170px) {
-
-    .cd-hero-slider h2, .cd-hero-slider p {
-        margin-bottom: 25px;
-    }
-
     .cd-hero-slider p:last-child {
         margin-bottom: 0;
     }
